@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { PersonListingContainer } from './view/PersonListingContainer';
+import { PersonListingContainer } from './view/PersonListing.container/PersonListing.container';
 
 function App() {
   return (
