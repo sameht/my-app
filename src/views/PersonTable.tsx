@@ -23,6 +23,7 @@ export class PersonTable extends Component<Props>{
                   </tr>
                 </thead>
                 <tbody>
+
                   {this.props.persons.length > 0 ? (
                     this.props.persons.map((person, index) => (
                       <tr key={index}>

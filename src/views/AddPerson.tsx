@@ -8,6 +8,7 @@ interface State {
     email: string
 }
 
+
 interface Props {
     onPersonCreate: (Person: Person) => void
 }
